@@ -1,0 +1,3 @@
+build a lite social platform
+1. authintication
+2. user can connect with
