@@ -24,7 +24,7 @@ export default function Login() {
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-blue-600 text-6xl font-bold mb-4">LightSocial</h1>
           <p className="text-2xl md:text-3xl">
-            Connect with friends and the world around you on Facebook.
+            Connect with friends and the world around you on LightSocial.
           </p>
         </div>
         <div className="flex-1 w-full max-w-md">
@@ -49,11 +49,12 @@ export default function Login() {
               />
 
               <Button
+              href="/"
                 text="Log In"
                 variant="primary"
                 size="lg"
                 className="w-full"
-                onClick={handleLogin}
+                // onClick={handleLogin}
               />
             </div>
 

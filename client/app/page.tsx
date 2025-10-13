@@ -1,16 +1,11 @@
-import { InputBox } from "@/components/forms/input-box";
-import { VscAccount } from "react-icons/vsc";
+import TeamsChatUI from "@/components/chat/teams-chat-ui";
+import Header from "@/components/common/header";
 
 export default function Home() {
   return (
-    <div className="d-flex place-items-center h-screen">
-      <div className="w-400 my-[60px]">
-        <InputBox
-        type="number"
-        placeholder="email"
-        icon={<VscAccount />}
-        />
-      </div>
-    </div>
+    <>
+      {/* <Header /> */}
+      <TeamsChatUI />
+    </>
   );
 }
