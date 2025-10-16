@@ -1,3 +1,13 @@
-build a lite social platform
-1. authintication
-2. user can connect with
+on google doc: lightsocial 
+
+
+| Module            | Purpose                                             | Notes                                    |
+| ----------------- | --------------------------------------------------- | ---------------------------------------- |
+| **Auth**          | Register, Login, Password Reset, Email Verification | JWT + bcrypt + validation                |
+| **Users**         | Profiles, follow/unfollow, search                   | REST APIs                                |
+| **Chat**          | 1:1 and group chat                                  | Socket.IO events for real-time messaging |
+| **Calls**         | Voice & Video                                       | WebRTC signaling via Socket.IO           |
+| **Notifications** | Real-time notifications                             | Optional: Redis or Socket.IO             |
+| **Posts / Feed**  | User posts, likes, comments                         | MongoDB collections + REST APIs          |
+| **Admin**         | Dashboard & moderation                              | Optional future module                   |
+
